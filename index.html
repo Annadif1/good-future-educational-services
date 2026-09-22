@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Good Future Educational Services | Study in China</title>
+  <meta name="description" content="Good Future Educational Services helps students with university admission, scholarships and study visa applications for China.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="container nav-container">
+
+    <a href="#home" class="logo">
+      <div class="logo-mark">GF</div>
+      <div>
+        <strong>Good Future</strong>
+        <span>Educational Services</span>
+      </div>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      ☰
+    </button>
+
+    <nav class="nav-menu" id="navMenu">
+      <a href="#home">Home</a>
+      <a href="#scholarships">Scholarships</a>
+      <a href="#eligibility">Eligibility</a>
+      <a href="#application">Apply</a>
+      <a href="#about">About</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+
+      <a href="#eligibility" class="nav-cta">
+        Apply for Scholarship
+      </a>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+
+  <div class="container hero-grid">
+
+    <div class="hero-content">
+
+      <div class="eyebrow">
+        <span></span>
+        INTERNATIONAL EDUCATION CONSULTANCY
+      </div>
+
+      <h1>
+        Study in China on
+        <span>Fully Funded Scholarships</span>
+      </h1>
+
+      <p>
+        Guiding students through university admission, scholarship
+        applications and visa approval with end-to-end support.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#eligibility" class="btn btn-primary">
+          Check My Eligibility →
+        </a>
+
+        <a href="#scholarships" class="btn btn-outline">
+          Explore Scholarships
+        </a>
+      </div>
+
+      <div class="trust-row">
+
+        <div class="trust-item">
+          <strong>✓</strong>
+          <span>Verified Programs</span>
+        </div>
+
+        <div class="trust-item">
+          <strong>✓</strong>
+          <span>Application Guidance</span>
+        </div>
+
+        <div class="trust-item">
+          <strong>✓</strong>
+          <span>Visa Support</span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+      <div class="floating-badge">
+        🎓 Scholarship Support
+      </div>
+
+      <div class="hero-card-icon">
+        🎓
+      </div>
+
+      <h3>Your Future Starts Here</h3>
+
+      <p>
+        Discover scholarship opportunities and get professional
+        guidance from application to arrival.
+      </p>
+
+      <div class="hero-stat-grid">
+
+        <div>
+          <strong>100+</strong>
+          <span>Students Goal</span>
+        </div>
+
+        <div>
+          <strong>3+</strong>
+          <span>Scholarship Types</span>
+        </div>
+
+        <div>
+          <strong>24/7</strong>
+          <span>Online Support</span>
+        </div>
+
+        <div>
+          <strong>4</strong>
+          <span>Degree Levels</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= TRUST STRIP ================= -->
+<section class="trust-strip">
+
+  <div class="container trust-grid">
+
+    <div>
+      <strong>🎓</strong>
+      <span>University Admission Support</span>
+    </div>
+
+    <div>
+      <strong>💰</strong>
+      <span>Scholarship Guidance</span>
+    </div>
+
+    <div>
+      <strong>📄</strong>
+      <span>Document Preparation</span>
+    </div>
+
+    <div>
+      <strong>✈️</strong>
+      <span>Visa Application Support</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= SCHOLARSHIPS ================= -->
+<section class="section" id="scholarships">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-tag">SCHOLARSHIP DIRECTORY</span>
+
+      <h2>
+        Find the Right Scholarship
+        <span>for Your Future</span>
+      </h2>
+
+      <p>
+        Explore major scholarship categories and identify programs
+        that may match your academic goals.
+      </p>
+
+    </div>
+
+
+    <div class="search-box">
+
+      <input
+        type="text"
+        id="scholarshipSearch"
+        placeholder="Search scholarships, fields or degree..."
+      >
+
+      <select id="degreeFilter">
+        <option value="all">All Degree Levels</option>
+        <option value="Bachelors">Bachelors</option>
+        <option value="Masters">Masters</option>
+        <option value="PhD">PhD</option>
+      </select>
+
+    </div>
+
+
+    <div class="scholarship-grid" id="scholarshipGrid">
+
+      <article class="scholarship-card"
+        data-degree="Bachelors Masters PhD"
+        data-search="Chinese Government Scholarship CSC engineering medicine business IT">
+
+        <div class="card-top">
+          <span class="card-icon">🇨🇳</span>
+          <span class="badge">Popular</span>
+        </div>
+
+        <h3>Chinese Government Scholarship</h3>
+
+        <p>
+          Explore CSC scholarship opportunities available through
+          participating Chinese universities and programs.
+        </p>
+
+        <div class="card-info">
+          <span>🎓 Bachelor • Master • PhD</span>
+          <span>💰 Tuition Support</span>
+          <span>🏠 Accommodation*</span>
+          <span>💵 Stipend*</span>
+        </div>
+
+        <a href="#eligibility" class="card-link">
+          Check Eligibility →
+        </a>
+
+      </article>
+
+
+      <article class="scholarship-card"
+        data-degree="Bachelors Masters PhD"
+        data-search="University Presidential Grants engineering business IT medicine">
+
+        <div class="card-top">
+          <span class="card-icon">🏛️</span>
+          <span class="badge blue">University</span>
+        </div>
+
+        <h3>University Presidential Grants</h3>
+
+        <p>
+          University-specific scholarships and grants may provide
+          financial support for qualified international students.
+        </p>
+
+        <div class="card-info">
+          <span>🎓 Bachelor • Master • PhD</span>
+          <span>💰 Tuition Support*</span>
+          <span>🏠 Accommodation*</span>
+          <span>📚 Academic Support*</span>
+        </div>
+
+        <a href="#eligibility" class="card-link">
+          Check Eligibility →
+        </a>
+
+      </article>
+
+
+      <article class="scholarship-card"
+        data-degree="Bachelors Masters"
+        data-search="Provincial Belt Road Scholarship China engineering business IT">
+
+        <div class="card-top">
+          <span class="card-icon">🌏</span>
+          <span class="badge green">Regional</span>
+        </div>
+
+        <h3>Provincial & Belt and Road Scholarships</h3>
+
+        <p>
+          Discover scholarship schemes offered by provinces and
+          participating institutions.
+        </p>
+
+        <div class="card-info">
+          <span>🎓 Bachelor • Master</span>
+          <span>💰 Tuition Support*</span>
+          <span>🏠 Accommodation*</span>
+          <span>💵 Possible Stipend*</span>
+        </div>
+
+        <a href="#eligibility" class="card-link">
+          Check Eligibility →
+        </a>
+
+      </article>
+
+    </div>
+
+    <p class="disclaimer">
+      *Coverage and eligibility vary by university, scholarship,
+      academic year and program. Always verify the official scholarship
+      conditions before applying.
+    </p>
+
+  </div>
+
+</section>
+
+
+<!-- ================= WHY US ================= -->
+<section class="section light" id="about">
+
+  <div class="container two-column">
+
+    <div>
+
+      <span class="section-tag">WHY GOOD FUTURE?</span>
+
+      <h2>
+        More Than Admission.
+        <span>We Guide Your Journey.</span>
+      </h2>
+
+      <p>
+        Studying abroad involves more than submitting an application.
+        Our consultancy model is designed to help students understand
+        their options and navigate each stage of the process.
+      </p>
+
+      <div class="feature-list">
+
+        <div class="feature">
+          <div>01</div>
+          <section>
+            <h3>Academic Guidance</h3>
+            <p>Understand programs, universities and admission requirements.</p>
+          </section>
+        </div>
+
+        <div class="feature">
+          <div>02</div>
+          <section>
+            <h3>Scholarship Support</h3>
+            <p>Identify suitable scholarship opportunities and prepare applications.</p>
+          </section>
+        </div>
+
+        <div class="feature">
+          <div>03</div>
+          <section>
+            <h3>Document Assistance</h3>
+            <p>Get organized with transcripts, recommendations and application documents.</p>
+          </section>
+        </div>
+
+        <div class="feature">
+          <div>04</div>
+          <section>
+            <h3>Visa Guidance</h3>
+            <p>Receive guidance on the student visa application process.</p>
+          </section>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="about-card">
+
+      <div class="about-card-header">
+        <span>GOOD FUTURE</span>
+        <span>EST. 2026</span>
+      </div>
+
+      <div class="globe">🌍</div>
+
+      <h3>
+        Your Education.
+        <br>
+        Your Opportunity.
+        <br>
+        Your Future.
+      </h3>
+
+      <p>
+        We connect ambitious students with international education
+        opportunities while helping them understand the application journey.
+      </p>
+
+      <a href="#application" class="btn btn-primary">
+        Start Application
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= ELIGIBILITY ================= -->
+<section class="section eligibility-section" id="eligibility">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-tag">ELIGIBILITY CHECKER</span>
+
+      <h2>
+        Find Your
+        <span>Scholarship Path</span>
+      </h2>
+
+      <p>
+        Answer a few questions to help us understand your academic goals.
+      </p>
+
+    </div>
+
+
+    <div class="wizard">
+
+      <div class="progress">
+        <div class="progress-line" id="progressLine"></div>
+
+        <div class="progress-step active">1</div>
+        <div class="progress-step">2</div>
+        <div class="progress-step">3</div>
+        <div class="progress-step">4</div>
+      </div>
+
+
+      <form
+        name="eligibility-checker"
+        method="POST"
+        data-netlify="true"
+        id="eligibilityForm"
+      >
+
+        <input type="hidden" name="form-name" value="eligibility-checker">
+
+
+        <!-- STEP 1 -->
+        <div class="wizard-step active">
+
+          <h3>What is your current qualification?</h3>
+
+          <div class="option-grid">
+
+            <label class="option">
+              <input type="radio" name="qualification" value="SSCE/WAEC" required>
+              <span>🎓</span>
+              <strong>SSCE / WAEC</strong>
+              <small>Secondary School</small>
+            </label>
+
+            <label class="option">
+              <input type="radio" name="qualification" value="HND">
+              <span>📚</span>
+              <strong>HND</strong>
+              <small>Higher National Diploma</small>
+            </label>
+
+            <label class="option">
+              <input type="radio" name="qualification" value="BSc">
+              <span>🎓</span>
+              <strong>BSc</strong>
+              <small>Bachelor's Degree</small>
+            </label>
+
+            <label class="option">
+              <input type="radio" name="qualification" value="MSc">
+              <span>🏆</span>
+              <strong>MSc</strong>
+              <small>Master's Degree</small>
+            </label>
+
+          </div>
+
+          <button type="button" class="btn btn-primary next-btn">
+            Continue →
+          </button>
+
+        </div>
+
+
+        <!-- STEP 2 -->
+        <div class="wizard-step">
+
+          <h3>Which field interests you?</h3>
+
+          <div class="option-grid">
+
+            <label class="option">
+              <input type="radio" name="field" value="Engineering" required>
+              <span>⚙️</span>
+              <strong>Engineering</strong>
+            </label>
+
+            <label class="option">
+              <input type="radio" name="field" value="Medicine">
+              <span>🩺</span>
+              <strong>Medicine</strong>
+            </label>
+
+            <label class="option">
+              <input type="radio" name="field" value="Business">
+              <span>💼</span>
+              <strong>Business</strong>
+            </label>
+
+            <label class="option">
+              <input type="radio" name="field" value="IT">
+              <span>💻</span>
+              <strong>Information Technology</strong>
+            </label>
+
+          </div>
+
+          <div class="wizard-buttons">
+            <button type="button" class="btn btn-outline prev-btn">
+              ← Back
+            </button>
+
+            <button type="button" class="btn btn-primary next-btn">
+              Continue →
+            </button>
+          </div>
+
+        </div>
+
+
+        <!-- STEP 3 -->
+        <div class="wizard-step">
+
+          <h3>What degree level do you want?</h3>
+
+          <div class="option-grid">
+
+            <label class="option">
+              <input type="radio" name="degree" value="Bachelors" required>
+              <span>🎓</span>
+              <strong>Bachelor's</strong>
+            </label>
+
+            <label class="option">
+              <input type="radio" name="degree" value="Masters">
+              <span>📖</span>
+              <strong>Master's</strong>
+            </label>
+
+            <label class="option">
+              <input type="radio" name="degree" value="PhD">
+              <span>🔬</span>
+              <strong>PhD</strong>
+            </label>
+
+          </div>
+
+          <div class="wizard-buttons">
+            <button type="button" class="btn btn-outline prev-btn">
+              ← Back
+            </button>
+
+            <button type="button" class="btn btn-primary next-btn">
+              Continue →
+            </button>
+          </div>
+
+        </div>
+
+
+        <!-- STEP 4 -->
+        <div class="wizard-step">
+
+          <h3>Where should we send your recommendations?</h3>
+
+          <div class="form-grid">
+
+            <div class="input-group">
+              <label>Full Name</label>
+              <input type="text" name="full-name" placeholder="Your full name" required>
+            </div>
+
+            <div class="input-group">
+              <label>Email Address</label>
+              <input type="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="input-group">
+              <label>WhatsApp Number</label>
+              <input type="tel" name="phone" placeholder="+234..." required>
+            </div>
+
+            <div class="input-group">
+              <label>Country</label>
+              <input type="text" name="country" placeholder="Nigeria" required>
+            </div>
+
+          </div>
+
+          <div class="wizard-buttons">
+            <button type="button" class="btn btn-outline prev-btn">
+              ← Back
+            </button>
+
+            <button type="submit" class="btn btn-primary">
+              Get My Recommendations →
+            </button>
+          </div>
+
+        </div>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= APPLICATION ================= -->
+<section class="section" id="application">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-tag">APPLICATION PORTAL</span>
+
+      <h2>
+        Start Your
+        <span>Application</span>
+      </h2>
+
+      <p>
+        Submit your details and documents for application review.
+      </p>
+
+    </div>
+
+
+    <form
+      name="student-application"
+      method="POST"
+      enctype="multipart/form-data"
+      data-netlify="true"
+      class="application-form"
+    >
+
+      <input type="hidden" name="form-name" value="student-application">
+
+      <div class="form-section">
+
+        <h3>Personal Information</h3>
+
+        <div class="form-grid">
+
+          <div class="input-group">
+            <label>Full Name *</label>
+            <input type="text" name="applicant-name" required>
+          </div>
+
+          <div class="input-group">
+            <label>Email *</label>
+            <input type="email" name="applicant-email" required>
+          </div>
+
+          <div class="input-group">
+            <label>Phone / WhatsApp *</label>
+            <input type="tel" name="applicant-phone" required>
+          </div>
+
+          <div class="input-group">
+            <label>Country *</label>
+            <input type="text" name="applicant-country" required>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="form-section">
+
+        <h3>Academic Information</h3>
+
+        <div class="form-grid">
+
+          <div class="input-group">
+            <label>Highest Qualification</label>
+            <select name="qualification">
+              <option>SSCE / WAEC</option>
+              <option>HND</option>
+              <option>BSc</option>
+              <option>MSc</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>Preferred Field</label>
+            <select name="field">
+              <option>Engineering</option>
+              <option>Medicine</option>
+              <option>Business</option>
+              <option>Information Technology</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>Desired Degree</label>
+            <select name="degree">
+              <option>Bachelor's</option>
+              <option>Master's</option>
+              <option>PhD</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <label>Preferred Intake</label>
+            <input type="text" name="intake" placeholder="e.g. 2027 Intake">
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="form-section">
+
+        <h3>Documents</h3>
+
+        <p class="form-note">
+          Only upload documents requested by the consultancy. Use secure
+          file handling and avoid uploading unnecessary sensitive information.
+        </p>
+
+        <div class="upload-grid">
+
+          <label class="upload-box">
+            <span>🪪</span>
+            <strong>Passport Scan</strong>
+            <small>Upload file</small>
+            <input type="file" name="passport">
+          </label>
+
+          <label class="upload-box">
+            <span>📜</span>
+            <strong>Academic Transcript</strong>
+            <small>Upload file</small>
+            <input type="file" name="transcript">
+          </label>
+
+          <label class="upload-box">
+            <span>📄</span>
+            <strong>Recommendation</strong>
+            <small>Upload file</small>
+            <input type="file" name="recommendation">
+          </label>
+
+          <label class="upload-box">
+            <span>📸</span>
+            <strong>Passport Photo</strong>
+            <small>Upload file</small>
+            <input type="file" name="photo">
+          </label>
+
+        </div>
+
+      </div>
+
+
+      <label class="checkbox">
+        <input type="checkbox" required>
+        <span>
+          I confirm that the information provided is accurate and I agree
+          to the processing of my application information.
+        </span>
+      </label>
+
+      <button class="btn btn-primary submit-btn" type="submit">
+        Submit Application →
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<!-- ================= PROCESS ================= -->
+<section class="section light">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-tag">OUR PROCESS</span>
+
+      <h2>
+        From Application
+        <span>to Arrival</span>
+      </h2>
+
+    </div>
+
+
+    <div class="process-grid">
+
+      <div class="process-card">
+        <span>01</span>
+        <h3>Consultation</h3>
+        <p>Understand your academic goals and available pathways.</p>
+      </div>
+
+      <div class="process-card">
+        <span>02</span>
+        <h3>University Selection</h3>
+        <p>Review suitable universities and programs.</p>
+      </div>
+
+      <div class="process-card">
+        <span>03</span>
+        <h3>Application</h3>
+        <p>Prepare and submit required admission materials.</p>
+      </div>
+
+      <div class="process-card">
+        <span>04</span>
+        <h3>Visa Guidance</h3>
+        <p>Receive guidance through the student visa process.</p>
+      </div>
+
+      <div class="process-card">
+        <span>05</span>
+        <h3>Pre-Departure</h3>
+        <p>Prepare for travel, accommodation and arrival.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="section">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <span class="section-tag">STUDENT STORIES</span>
+
+      <h2>
+        Hear From
+        <span>Our Students</span>
+      </h2>
+
+      <p>
+        Replace these sample testimonials with verified student reviews
+        and permission-based photos/videos.
+      </p>
+
+    </div>
+
+
+    <div class="testimonial-grid">
+
+      <article class="testimonial">
+
+        <div class="student-avatar">S</div>
+
+        <div class="stars">★★★★★</div>
+
+        <p>
+          “Sample testimonial — replace this with a verified student
+          experience before publishing.”
+        </p>
+
+        <strong>Student Name</strong>
+        <span>China — University Student</span>
+
+      </article>
+
+
+      <article class="testimonial">
+
+        <div class="student-avatar">A</div>
+
+        <div class="stars">★★★★★</div>
+
+        <p>
+          “Sample testimonial — replace this with an authentic,
+          permission-based student story.”
+        </p>
+
+        <strong>Student Name</strong>
+        <span>China — University Student</span>
+
+      </article>
+
+
+      <article class="testimonial">
+
+        <div class="student-avatar">M</div>
+
+        <div class="stars">★★★★★</div>
+
+        <p>
+          “Sample testimonial — replace this with a verified student
+          review and accurate details.”
+        </p>
+
+        <strong>Student Name</strong>
+        <span>China — University Student</span>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= VERIFICATION ================= -->
+<section class="verification">
+
+  <div class="container verification-inner">
+
+    <div>
+      <span class="section-tag">VERIFICATION</span>
+
+      <h2>Professional & Transparent</h2>
+
+      <p>
+        Add your official Nigerian and Chinese registration/licensing
+        information here once verified and documented.
+      </p>
+    </div>
+
+    <div class="verification-box">
+
+      <div>
+        <strong>🇳🇬 Nigeria</strong>
+        <span>License / Registration No.</span>
+        <small>ADD VERIFIED NUMBER</small>
+      </div>
+
+      <div>
+        <strong>🇨🇳 China</strong>
+        <span>License / Registration No.</span>
+        <small>ADD VERIFIED NUMBER</small>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FAQ ================= -->
+<section class="section light" id="faq">
+
+  <div class="container faq-container">
+
+    <div class="section-heading">
+
+      <span class="section-tag">FAQ</span>
+
+      <h2>
+        Frequently Asked
+        <span>Questions</span>
+      </h2>
+
+    </div>
+
+
+    <div class="faq-list">
+
+      <div class="faq-item">
+
+        <button class="faq-question">
+          Are Chinese scholarships fully funded?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Some scholarships can cover items such as tuition,
+            accommodation and living support, but coverage differs
+            by scholarship and university. Always confirm the current
+            official award conditions.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <button class="faq-question">
+          Can I apply with WAEC or SSCE?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Some undergraduate programs accept secondary-school
+            qualifications, subject to the university's admission
+            requirements. Requirements vary by program.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <button class="faq-question">
+          Do I need IELTS?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Language requirements vary between universities and
+            programs. Some programs may accept alternative evidence
+            of English proficiency, while others may have specific
+            language requirements.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <button class="faq-question">
+          How much does it cost to live in China?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            Living costs depend heavily on the city, accommodation,
+            lifestyle and university. Students should prepare a
+            realistic budget for their specific destination.
+          </p>
+        </div>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <button class="faq-question">
+          Can you guarantee a visa?
+          <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+          <p>
+            No legitimate consultancy can guarantee a visa decision.
+            We can provide application guidance and help students
+            understand the documentation and process.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section class="contact-section" id="contact">
+
+  <div class="container contact-grid">
+
+    <div>
+
+      <span class="section-tag">CONTACT US</span>
+
+      <h2>
+        Let's Build Your
+        <span>Future Together.</span>
+      </h2>
+
+      <p>
+        Have questions about scholarships, admission or studying in China?
+        Contact our team.
+      </p>
+
+      <div class="contact-details">
+
+        <div>
+          <strong>📱 WhatsApp</strong>
+          <span>+234 XXX XXX XXXX</span>
+        </div>
+
+        <div>
+          <strong>✉️ Email</strong>
+          <span>info@goodfutureeducation.com</span>
+        </div>
+
+        <div>
+          <strong>📍 Nigeria Office</strong>
+          <span>Kano, Nigeria</span>
+        </div>
+
+        <div>
+          <strong>🇨🇳 China Office</strong>
+          <span>Add verified office address</span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      class="contact-form"
+    >
+
+      <input type="hidden" name="form-name" value="contact">
+
+      <input type="text" name="name" placeholder="Your Name" required>
+
+      <input type="email" name="email" placeholder="Email Address" required>
+
+      <input type="tel" name="phone" placeholder="WhatsApp Number">
+
+      <select name="subject">
+        <option>Scholarship Inquiry</option>
+        <option>University Admission</option>
+        <option>Visa Guidance</option>
+        <option>General Inquiry</option>
+      </select>
+
+      <textarea
+        name="message"
+        rows="5"
+        placeholder="How can we help?"
+        required
+      ></textarea>
+
+      <button class="btn btn-primary" type="submit">
+        Send Message →
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+
+  <div class="container footer-grid">
+
+    <div class="footer-brand">
+
+      <a href="#home" class="logo footer-logo">
+        <div class="logo-mark">GF</div>
+
+        <div>
+          <strong>Good Future</strong>
+          <span>Educational Services</span>
+        </div>
+      </a>
+
+      <p>
+        Helping students navigate international education,
+        scholarships and university admissions.
+      </p>
+
+      <div class="socials">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">◎</a>
+        <a href="#" aria-label="TikTok">♪</a>
+        <a href="#" aria-label="LinkedIn">in</a>
+      </div>
+
+    </div>
+
+
+    <div>
+
+      <h4>Quick Links</h4>
+
+      <a href="#home">Home</a>
+      <a href="#scholarships">Scholarships</a>
+      <a href="#eligibility">Eligibility</a>
+      <a href="#application">Apply</a>
+
+    </div>
+
+
+    <div>
+
+      <h4>Services</h4>
+
+      <a href="#application">University Admission</a>
+      <a href="#scholarships">Scholarship Support</a>
+      <a href="#application">Document Assistance</a>
+      <a href="#contact">Visa Guidance</a>
+
+    </div>
+
+
+    <div>
+
+      <h4>Information</h4>
+
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#faq">FAQs</a>
+      <a href="#contact">Contact</a>
+
+    </div>
+
+  </div>
+
+
+  <div class="footer-bottom">
+
+    <div class="container">
+
+      <span>
+        © <span id="year"></span> Good Future Educational Services.
+        All rights reserved.
+      </span>
+
+      <span>
+        Education • Opportunity • Future
+      </span>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<!-- ================= WHATSAPP ================= -->
+<a
+  href="https://wa.me/2340000000000"
+  class="whatsapp"
+  target="_blank"
+  rel="noopener"
+  aria-label="Chat on WhatsApp"
+>
+  <span>💬</span>
+</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
